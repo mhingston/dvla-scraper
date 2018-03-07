@@ -1,0 +1,19 @@
+{
+  "name": "dvla-scraper",
+  "version": "1.0.0",
+  "description": "A tool to scrape the DVLA enquiry service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mark Hingston <git@mail.bitshift.cc>",
+  "license": "MIT",
+  "dependencies": {
+    "adapters": "github:mhingston/adapters",
+    "date-fns": "^2.0.0-alpha.7",
+    "puppeteer": "^1.1.1",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
